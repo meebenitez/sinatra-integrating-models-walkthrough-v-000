@@ -39,4 +39,7 @@ class TextAnalyzer
 
     biggest
   end
+
+  def count_of_most_used_letter
+    letter = self.most_used_letter
 end
