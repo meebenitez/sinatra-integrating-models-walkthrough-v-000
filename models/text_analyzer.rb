@@ -41,6 +41,7 @@ class TextAnalyzer
   end
 
   def count_of_most_used_letter
+    binding.pry
     letter = self.most_used_letter
     self.text.count(letter)
   end
