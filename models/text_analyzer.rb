@@ -42,4 +42,5 @@ class TextAnalyzer
 
   def count_of_most_used_letter
     letter = self.most_used_letter
+    self.text.count(letter)
 end
